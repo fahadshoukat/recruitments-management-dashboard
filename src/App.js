@@ -1,10 +1,11 @@
+import Home from './components/home/Home';
 import './App.css';
-import SideBar from './components/sidebar/SideBar';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
     <>
-    <SideBar />
+    <Home />
     </>
   );
 }

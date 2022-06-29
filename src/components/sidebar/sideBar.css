@@ -1,3 +1,24 @@
-* {
+.container {
     background: #142D52;
+    min-height: 100vh;
 }
+.col {
+    padding: 0!important;
+}
+
+.line {
+    border: 1px solid #06BF97;
+    margin: 0 60px;
+}
+
+.carton{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.sidebar-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
