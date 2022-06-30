@@ -6,7 +6,7 @@ import carton from "../../images/Illustration.png"
 
 const SideBar = () => {
   return (
-    <div className="container sideBar text-light">
+    <div className="container sideBar g-3 text-light">
       <div className="row">
         <div className="col">
           <div>
