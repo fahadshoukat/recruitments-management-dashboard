@@ -1,5 +1,5 @@
 import React from 'react'
-import Create from '../createRecruitement/Create'
+import Active from '../active/Active'
 import SideBar from '../sidebar/SideBar'
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
                 <SideBar />
             </div>
             <div className="col">
-                <Create />
+                <Active />
             </div>
         </div>
     </div>

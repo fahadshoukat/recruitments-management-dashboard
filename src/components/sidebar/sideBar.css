@@ -5,10 +5,14 @@
 .col {
     padding: 0!important;
 }
-
+.logo {
+    position: relative;
+    left: 25%;
+}
 .line {
     border: 1px solid #06BF97;
-    margin: 0 60px;
+    /* margin: 0 60px; */
+    max-width: 200px;
 }
 
 .carton{
@@ -17,8 +21,11 @@
     justify-content: center;
 }
 .sidebar-footer {
+    position: fixed;
+    bottom: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 

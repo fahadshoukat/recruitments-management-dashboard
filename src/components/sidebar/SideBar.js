@@ -6,11 +6,11 @@ import carton from "../../images/Illustration.png"
 
 const SideBar = () => {
   return (
-    <div className="container sideBar g-3 text-light">
+    <div className="container sideBar p-0 text-light">
       <div className="row">
         <div className="col">
           <div>
-            <img src={ logo } alt="logo" />
+            <img className='logo' src={ logo } alt="logo" />
             <div className='d-flex justify-content-center'>
               <img src={ basket } alt="basket-logo" />
               <span>My Recruitment</span>
@@ -19,7 +19,7 @@ const SideBar = () => {
           <div className='sidebar-footer'>
             <div className='line'></div>
             <img className='carton' src={ carton } alt="carton-img" />
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            <span>dolor sit amet consectetur adipisicing elit.</span>
           </div>
         </div>
       </div>
